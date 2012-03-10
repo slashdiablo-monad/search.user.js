@@ -101,7 +101,7 @@ function everything() {
     function main() {
         // Search index for all items.
         var search = SearchIndex.fromMasterItemList(arrMasterItemList, arrPossibleRunewords);
-        console.log('indexed');
+        //console.log('indexed');
 
         // Style for the autocompleter. It would be nice to put this in a real <style> tag or css file, instead of appending with javascript.
         var style = jQuery('<style>');
@@ -119,10 +119,10 @@ function everything() {
             var text = $(this).val();
             var properties = search.getPropertiesForText(text);
             if (!properties) {
-                console.log('skipping', text);
+                //console.log('skipping', text);
                 return;
             }
-            console.log('changing', text, properties);
+            //console.log('changing', text, properties);
             // Update the select menus.
             // Fire onchange manually for each update, so we don't have to wait each time.
             // tradelist.php:
@@ -140,7 +140,7 @@ function everything() {
         });
         searchbox.appendTo('h1');
         searchbox.focus();
-        console.log('done');
+        //console.log('done');
     }
 
 ///////////////////////////////////////////////////////////////////////////////
