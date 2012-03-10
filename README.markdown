@@ -2,7 +2,7 @@ Searchbox for the slashdiablo trade site.
 
 Because searching with select-menus is really tedious.
 
-Tested with Chromium 17. (TODO: test with firefox) 
+Tested with Chromium 17 (Google Chrome) and [Greasemonkey 0.9.18](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) + Firefox 10.0.2.
 
 [Install](https://github.com/slashdiablo-monad/search.user.js/raw/master/search.user.js)
 
